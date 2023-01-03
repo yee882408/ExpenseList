@@ -10,6 +10,7 @@
   font-weight: bold;
   margin-bottom: 0.5rem;
   display: block;
+  color: whitesmoke;
 }
 
 .new-expense__control input {
@@ -26,7 +27,7 @@
 }
 
 .new-expense {
-  background-color: #432b92;
+  background-color: #0a090a;
   padding: 1rem;
   margin: 2rem auto;
   width: 50rem;
@@ -40,16 +41,16 @@
   font: inherit;
   cursor: pointer;
   padding: 1rem 2rem;
-  border: 1px solid #40005d;
-  background-color: #40005d;
-  color: white;
+  border: 1px solid #e9e9e9;
+  background-color: #e6e2e5;
+  color: rgb(12, 11, 11);
   border-radius: 12px;
   margin-right: 1rem;
 }
 
 .new-expense button:hover,
 .new-expense button:active {
-  background-color: #510674;
+  background-color: #6e6a91;
   border-color: #510674;
 }
 

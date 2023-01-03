@@ -90,7 +90,7 @@ const ExpenseForm = (props) => {
         <button type="button" onClick={props.onCancel}>
           取消
         </button>
-        <button type="submit">Add Expense</button>
+        <button type="submit">新增消費</button>
       </div>
     </form>
   );
