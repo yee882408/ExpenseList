@@ -10,16 +10,18 @@
   font-weight: bold;
   margin-bottom: 0.5rem;
   display: block;
-  color: rgb(25, 141, 122);
+  color: #0a969b;
 }
 
 .new-expense__control input {
   font: inherit;
   padding: 0.5rem;
   border-radius: 6px;
-  border: 1px solid #ccc;
+  border-style: none;
+  background-color: #2e2d2d;
   width: 20rem;
   max-width: 100%;
+  color: white;
 }
 
 .new-expense__actions {
@@ -41,9 +43,9 @@
   font: inherit;
   cursor: pointer;
   padding: 1rem 2rem;
-  border: 1px solid #e9e9e9;
-  background-color: #e6e2e5;
-  color: rgb(25, 141, 122);
+  border: 1px solid #424242;
+  background-color: #2e2d2d;
+  color: #0a969b;
   border-radius: 12px;
   margin-right: 1rem;
 }
@@ -123,8 +125,9 @@
   font-size: 1rem;
   font-weight: bold;
   color: white;
-  background-color: #40005d;
-  border: 1px solid white;
+  background-color: #319487;
+  border-radius: 0.5px;
+  border: 0.1px solid white;
   padding: 0.5rem;
   border-radius: 12px;
 }
@@ -153,7 +156,7 @@
 }
 
 .expenses-filter {
-  color: white;
+  color: #0a969b;
   padding: 0 1rem;
 }
 
@@ -175,6 +178,8 @@
   padding: 0.5rem 3rem;
   font-weight: bold;
   border-radius: 6px;
+  background-color: #333333;
+  color: #0a969b;
 }
 
 .expenses-list {
